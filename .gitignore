@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the 'go build' command
+*.o
+*.a
+*.out
+
+# Temporary files
+*.tmp
+*.csv
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the 'go run' command
+*.run
+
+# Output of the 'go build' command for files outside the module's root directory
+!<module-name>.exe
+
+# Logs
+*.log
+
+# Dependency directories
+vendor/
+Godeps/
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Go module files (optional, if you want to ignore specific module files)
+# go.sum
+
+# Go environment files
+.env
+
+# System-specific files
+.DS_Store
+Thumbs.db
